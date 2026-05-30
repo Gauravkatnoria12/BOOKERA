@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <nav className='flex items-center fixed top-0 justify-between w-full h-24 bg-stone-50/90 backdrop-blur-md shadow-xs border-b-0 px-22 z-50 '>
       <div className='font-cormorant text-3xl text-neutral-800 w-80 flex items-center justify-center'>BOOK.ERA</div>
-      <div className= 'w-full flex flex-row gap-7 justify-center items-center font-Inter font-semibold text-xs text-neutral-600 cursor-pointer'>
+      <div className= 'w-full flex flex-row gap-7 justify-center items-center font-Inter font-semibold text-xs tracking-[0.2em] text-neutral-600 cursor-pointer'>
         <a href="#">
           <p className='hover:scale-110 transition-transform duration-100 ease-in-out active:scale-100'>HOME</p>
         </a>
