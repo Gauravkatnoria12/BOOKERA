@@ -5,7 +5,7 @@ const GetInTouch = () => {
   return (
     <section className='h-screen w-full flex flex-row mb-24 px-20'>
       <div className='w-60'>
-        <img src={getImg} className='h-full object-cover object-right'></img>
+        <img src={getImg} className='h-full object-cover object-right opacity-85'></img>
       </div>
       <div className='flex-1 flex flex-col items-center justify-center'>
         <div>

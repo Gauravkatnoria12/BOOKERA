@@ -26,7 +26,7 @@ const App = () => {
           <button className='mt-8 flex items-center gap-1 px-10 py-5 bg-neutral-900 rounded-lg font-Inter text-white text-md hover:scale-110 transition-transform duration-300 ease-in-out'> 
             Explore &nbsp;<ArrowRight  size={16} color="white" strokeWidth={1} />
           </button>
-          <div className='font-Inter text-6xl text text-neutral-100 font-semibold pt-22 animate-pulse'>BOOK ERA</div>
+          <div className='font-Inter text-6xl text text-neutral-200 font-semibold pt-22 animate-pulse'>BOOK ERA</div>
         </div>
         <div className='w-full flex flex-col items-end gap-10 pr-28 py-15'>
           <img src={heroImg} className='w-140 rounded-2xl mb-10 shadow-lg hover:scale-102 transition-transform duration-300 ease-in-out' alt="Hero Books" />
