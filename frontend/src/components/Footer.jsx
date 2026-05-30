@@ -1,4 +1,6 @@
-export default function Footer() {
+
+
+function Footer() {
   return (
     <footer className="h-100 bg-stone-50 border-t border-stone-200">
       <div className="max-w-7xl mx-auto px-8 h-full flex flex-col justify-between py-16">
@@ -161,3 +163,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer
