@@ -23,7 +23,7 @@ const Marquee = () => {
 
   return (
     <div 
-      className="w-full h-28 bg-neutral-900 border-y border-neutral-800 flex items-center overflow-hidden relative select-none"
+      className="w-full h-28 bg-neutral-800 border-y border-neutral-700 flex items-center overflow-hidden relative select-none"
     >
       <style>{`
         @keyframes marquee {
