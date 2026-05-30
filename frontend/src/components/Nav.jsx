@@ -1,4 +1,4 @@
-import { Search, ChevronDown, User, Plus  } from 'lucide-react'
+import { Search, ChevronDown, User, Handbag  } from 'lucide-react'
 
 
 const Nav = () => {
@@ -25,7 +25,7 @@ const Nav = () => {
       <div className="w-60 flex flex-row justify-center gap-6">
         <Search size={24} color="black" strokeWidth={1}  className='hover:scale-120 transition-transform duration-100 ease-in-out active:scale-100' />
         <User size={24} color="black" strokeWidth={1} className='hover:scale-120 transition-transform duration-100 ease-in-out active:scale-100' />
-        <Plus size={24} color="black" strokeWidth={1} className='hover:scale-120 transition-transform duration-100 ease-in-out active:scale-100' />
+        <Handbag size={24} color="black" strokeWidth={1} className='hover:scale-120 transition-transform duration-100 ease-in-out active:scale-100' />
       </div>
     </nav>
   )

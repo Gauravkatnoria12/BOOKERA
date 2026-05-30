@@ -66,7 +66,7 @@ const App = () => {
 
         <div className='w-70 flex flex-col items-center justify-center'>
           <div>
-            <p className='font-Inter text-sm text text-neutral-400 tracking-widest shadow-2xs py-3'>✦ FOR BOOK LOVERS</p>
+            <p className='font-Inter text-sm text text-neutral-400 tracking-widest shadow-2xs py-3'>FOR BOOK LOVERS</p>
             <h1 className='font-cormorant text-6xl text-neutral-800 mt-6'>More than <br />just a book.</h1>
             <p className='font-Inter mt-5 text-md text-neutral-700'>Explore our collection, discover new <br />favourites, and find the perfect gift.</p>
             <button className='group mt-6 px-7 py-4 flex flex-row items-center font-Inter border-2 border-neutral-600 text-neutral-700 text-md hover:bg-neutral-800 hover:text-neutral-50 hover:border-neutral-800 transition-colors duration-300 ease-in-out'>
