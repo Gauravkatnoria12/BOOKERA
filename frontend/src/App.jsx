@@ -38,7 +38,7 @@ const App = () => {
 
       {/* TEXT */}
 
-      <section className='h-screen w-full bg-neutral-700 flex flex-col justify-center items-center text-white'>
+      <section className='h-screen w-full bg-neutral-800 flex flex-col justify-center items-center text-white'>
         
         <div className=' flex flex-col justify-center'>
           <h2 className='font-wind text-4xl'>" A reader lives a thousand lives before he dies.</h2>
