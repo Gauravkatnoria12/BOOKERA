@@ -1,16 +1,74 @@
-# React + Vite
+# LibraryMgmt Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend for the LibraryMgmt landing page built with Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Project overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Modern single-page UI with animated hero, book showcase, quote sections, featured collection, contact CTA, marquee, and footer.
+- Built with:
+  - `React 19`
+  - `Vite`
+  - `Tailwind CSS`
+  - `GSAP`
+  - `lucide-react`
+- Clean component structure under `src/components/` and visual assets in `src/assets/`.
 
-## React Compiler
+## Key files
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `src/App.jsx` — main page layout and sections
+- `src/components/Nav.jsx` — navigation bar
+- `src/components/Books.jsx` — book listing section
+- `src/components/GetInTouch.jsx` — contact/CTA section
+- `src/components/Marquee.jsx` — animated marquee section
+- `src/components/Footer.jsx` — footer content
+- `src/index.css` — global styles
+- `vite.config.js` — Vite configuration
+- `tailwind.config.js` — Tailwind configuration
 
-## Expanding the ESLint configuration
+## Getting started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build production assets:
+
+```bash
+npm run build
+```
+
+Preview production build locally:
+
+```bash
+npm run preview
+```
+
+Run ESLint checks:
+
+```bash
+npm run lint
+```
+
+## Available scripts
+
+- `npm run dev` — starts Vite development server with hot module replacement
+- `npm run build` — bundles the app for production
+- `npm run preview` — locally previews the production build
+- `npm run lint` — runs ESLint across the project
+
+## Notes
+
+- The app is currently configured as a static frontend experience.
+- To deploy, build the project and serve the `dist/` output via any static host.
+
+## License
+
+This project does not include a license file. Add one if you intend to share or publish the source.
