@@ -1,4 +1,4 @@
-# LibraryMgmt Frontend
+# Frontend
 
 A React-based frontend for the LibraryMgmt landing page built with Vite and Tailwind CSS.
 
